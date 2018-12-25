@@ -6,4 +6,4 @@ RUN apt update && apt install -y\
 
 EXPOSE 445
  
-CMD ["smbd","-F"]
+CMD ["smbd","-F", "-S"]
